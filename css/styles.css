@@ -1,0 +1,85 @@
+/* fixing line height*/ 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+label {
+    margin: 4px 12px;
+    padding: 4px 12px;
+}
+
+.container,
+.row,
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.form {
+    border: 4px solid black;
+}
+
+.meme-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-container{
+    margin: 12px;
+    position: flex;
+    color: black;
+    justify-content: center;
+    align-items: end;
+    min-height: 20vh;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.button {
+    position: relative;
+    margin: 12px 12px; 
+    padding: 12px 12px;
+    background-color: aqua;
+}
+
+h2, 
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 36px;
+    font-size: 24px;
+    background-color: aliceblue;
+    border: 4px black solid;
+    color: black;
+}
+
+h2 {
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
+
+h3 {
+    margin-top: 80%;
+}
+
+
+
+
+#submitButton {
+    margin: 6px 12px;
+}
+

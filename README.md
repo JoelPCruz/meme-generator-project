@@ -1,2 +1,0 @@
-# meme-generator-project
- 
