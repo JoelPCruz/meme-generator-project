@@ -24,7 +24,7 @@ form.addEventListener("submit", (e) => { // when the submit button is clicked...
         return alert('please enter a value for each field');
     } else {
     imgDiv.innerHTML += `
-        <div class='img-container' style='background-image: url(${imgInput.value})'>
+        <div class='img-fluid img-container' style='background-image: url(${imgInput.value})'>
             <h2>${topTextInp.value}</h2>
             <h3>${botTextInp.value}</h3>
             <button class='button'>Remove</button>

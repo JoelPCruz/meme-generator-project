@@ -1,4 +1,4 @@
-/* fixing line height*/ 
+/* fixing line height  */
 * {
     box-sizing: border-box;
 }
@@ -17,34 +17,32 @@ label {
     padding: 4px 12px;
 }
 
-.container,
+/* .container,
 .row,
 .form{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-    
+     */
 
 .form {
     border: 4px solid black;
 }
-
+/* 
 .meme-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
 .img-container{
     margin: 12px;
-    position: flex;
+    /* position: flex; */
     color: black;
-    justify-content: center;
-    align-items: end;
+    /* justify-content: center;
+    align-items: end; */
     min-height: 20vh;
     background: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 
